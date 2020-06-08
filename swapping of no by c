@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a,b,c;
+printf("enter the numbers a,b,c");
+scanf("%d%d%d",a,b,c);
+printf("before swap the numbers are %d%d",a,b);
+a=b;
+b=c;
+c=a;
+printf("afetr swapping the no are %d%d",a,b);
+getch();
+}
